@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
     <title>Document</title>
+    
+    <style>
+      *{
+         font-family: 'Roboto Slab', serif;
+       }
+
+       label{
+         color: darkmagenta;
+         font-size: x-large;
+
+       }
+       input{
+          width: 400px;
+          height: 25px;
+          border-radius: 10px;
+          border: 1px solid burlywwod;
+         
+      
+       }
+       input[type="text"]
+       {
+         text-transform: capitalize;
+         color: cadetblue;
+       }
+       input[type="email"]
+       {
+         color: cyan;
+       }
+   
+       #submit:hover{
+         background-color: deeppink;
+
+       }
+       button[type="submit"]:hover{
+        color: yellow;
+
+       }
+</style>
   </head>
   <body>
     <h3>Contaus Us</h3>
@@ -31,7 +76,7 @@
             </tr>
 
           <tr>
-                <td><button type="submit">submit</button></td>
+                <td><button id="submit">submit</button></td>
                 <td><button type="submit">Clear </button></td>
                  <td></td>
           </tr>

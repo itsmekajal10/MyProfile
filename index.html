@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Document</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <header>
-           <i class="fa fa-user" aria-hidden="true"></i><span>Kajal Gadade</span>&nbsp;&nbsp;
-            <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>1234567890</span>&nbsp;&nbsp;
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span>kajal@gmail.com</span>
-        </header>
-        <nav>
-            <a href="home.html" target="_blank">HOME</a> &nbsp; &nbsp; &nbsp; 
-            <a href="techStack.html">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-            <a href="education.html" target="_blank">EDUCATION</a> &nbsp; &nbsp; &nbsp;
-            <a href="personal.html" target="_blank">PERSONAL</a> &nbsp; &nbsp; &nbsp;
-            <a href="contactus.html">CONTACT ME</a>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font familt link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
 
-        <iframe width="600px" height="400px" name="frame" src="home.html">
-        <h3>Profile</h3>
+    
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/png.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0px;
+            /* padding: 0px;  All element on programing universial selector */
+        }
 
-        </iframe>
-        <p>Follow Me: 
-            &nbsp;
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp; &nbsp;
-           <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a> </i>&nbsp; &nbsp;
-           <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp;
-           <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> 
+        .head{
+            color: rgb(240, 9, 47);
+            background-color: palegreen;
+            margin-right: 10px;
+
+        }
+        header{
+            font-family: 'Fira Sans Condensed', sans-serif;
+        }
 
 
-        </p>
-    </body>
+        #icon{
+            margin-right: 10px;
+
+        }
+        .navtion{
+            margin-right: 20px;
+            text-transform: uppercase;
+        }
+      #logo{
+        margin-right: 10px;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <i class="fa fa-user" aria-hidden="true" id="icon"></i> <span class="head">Kajal Gadade</span> 
+        <i class="fa fa-phone-square" aria-hidden="true" id="icon"></i><span class="head">+91-123456787</span> 
+        <i class="fa fa-envelope" aria-hidden="true"id="icon" ></i><span class="head">Kajal@gmail.com </span> 
+    </header>
+
+   <nav >
+        <a href="home.html " target="frame" class="navtion">Home</a>
+        <a href="techStack.html" target="frame" class="navtion">Technology Stack</a>
+        <a href="education.html" target="frame" class="navtion">Education</a>
+        <a href="personal.html" target="frame" class="navtion">Personal Detial</a>
+        <a href="contactus.html" target="frame" class="navtion">Contact Us</a> 
+   </nav>
+
+    <p>
+        <iframe width="800px" height="400px" name="frame" src="home.html"></iframe>
+    </p>  
+    <p>
+        Follow me        &nbsp; &nbsp;
+        <a href="https://www.linkedin.com/" target="_blank" id="logo"><i class="fa fa-linkedin-square" aria-hidden="true" ></i></a>
+       
+
+        <a href="https://www.google.com/" target="_blank" id="logo"><i class="fa fa-google" aria-hidden="true" ></i></a>
+      
+        <a href="https://www.instagram.com/" target="_blank"  id="logo"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        
+
+        <a href="https://www.facebook.com/" target="_blank" id="logo"><i class="fa fa-facebook-square" aria-hidden="true" ></i></a>
+       
+        
+    </p>
+</body>
 </html>
